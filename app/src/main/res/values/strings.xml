@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PoliMarket Móvil</string>
+    <string name="screen_title">Consultar disponibilidad</string>
+    <string name="screen_description">Consulta las existencias antes de preparar una salida de productos.</string>
+    <string name="product_label">ID del producto</string>
+    <string name="product_hint">Ejemplo: 1</string>
+    <string name="quantity_label">Cantidad solicitada</string>
+    <string name="check_button">Consultar disponibilidad</string>
+    <string name="loading">Consultando inventarioÂ¦</string>
+    <string name="initial_result">Ingresa el producto y la cantidad para consultar.</string>
+    <string name="stock_note">Esta consulta no reserva ni descuenta inventario.</string>
+    <string name="invalid_product">Ingresa un ID entero mayor que cero.</string>
+    <string name="invalid_quantity">Ingresa una cantidad entre 1 y 2147483647.</string>
+    <string name="available">Hay existencias suficientes para %1$d unidades de %2$s.</string>
+    <string name="unavailable">No hay existencias suficientes para %1$d unidades de %2$s, o el producto no tiene stock registrado.</string>
+    <string name="network_error">No fue posible conectar. Verifica que el telefono esta en la misma red y el backend esta activo en el puerto 5050.</string>
+    <string name="response_error">El servidor devolvio una respuesta inesperada.</string>
+    <string name="server_error">El servidor no pudo completar la consulta (HTTP %1$d).</string>
+    <string name="local_permission_denied">Se necesita permiso de red local para consultar el inventario del computador.</string>
+    <string name="server_url" translatable="false">http://192.168.1.93:5050</string>
+    <string name="product_fallback">producto con ID %1$d</string>
+</resources>
